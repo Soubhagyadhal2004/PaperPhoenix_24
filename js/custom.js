@@ -69,7 +69,7 @@ $('.slider_btn_next').on('click', function (e) {
 function myMap() {
     var mapProp = {
         center: new google.maps.LatLng(16.491977, 80.500648),
-        zoom: 18,
+        zoom: 16,
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
